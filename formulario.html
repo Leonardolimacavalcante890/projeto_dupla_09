@@ -12,54 +12,66 @@
     
     <form action="./próxima pagina">
         <fieldset>
-            <legend>Informações Necessarias</legend>
+        <legend>Roupas</legend>
+        <label></label>             <input type="color">
+        <input type="checkbox"><br> 
+        <label></label>             <input type="color">
+        <input type="checkbox"><br>
+        <label></label>             <input type="color">
+        <input type="checkbox"><br>
+        <label></label>             <input type="color">
+        <input type="checkbox"><br>
+        <label></label>             <input type="color">
+        <input type="checkbox"><br>
+        <label></label>             <input type="color">
+        <input type="checkbox"><br>                             
+        </fieldset>
+        <fieldset>
+
+            <legend>Quantidade de itens</legend>
+            <label>Camisa</label>     
+            <input type="number"><br>  
+            <label>Calça</label>
+            <input type="number"><br> 
+            <label>Sapatos</label>
+            <input type="number"><br> 
+            <label></label>
+            <input type="number"><br> 
+            <label>555</label>
+            <input type="number"><br> 
+            <label>666</label>
+            <input type="number"><br> 
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações Necessarias para compra</legend>
     
         <label>Nome:</label>
         <input type="text"> <br>
-        <label>Endereço:</label>
-        <input type="text">
+        <label>Cep:</label>
+        <input type="text"> <br>
         <label>E-Mail:</label>
         <input type="text"> <br>
         <label>Telefone:</label>
         <input type="number"> <br>
-        </fieldset>
 
-        <fieldset>
-            <legend>Casa ou Apartamento</legend>
-            <input type="radio" name="residencia"> 
+        <legend>Residencia</legend>
+        <input type="radio" name="residencia"> 
         <label>Casa</label> <br>
-        
         <input type="radio" name="residencia"> 
         <label>Apartamento</label> 
         </fieldset>
 
-        
-         <h3>Qual a forma de pagamento?</h3>
-         
-
-         <input type="checkbox">
-         <label>Compra de passagens</label> <br>
-         <input type="checkbox">
-         <label>Reserva de hospedagem</label> <br>
-         <input type="checkbox">
-         <label>Reserva de veiculos</label>
-         
-
-         <h3>Quantidade de crianças</h3>
-         1
-        <input type="range"> 
-        10
-        <br>
-        
-
-        <select>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-        </select>
+        <fieldset>
+            <legend>Forma de pagamento</legend>
+         <input type="radio" name="forma">
+         <label>Pix</label> <br>
+         <input type="radio" name="forma">
+         <label>Cartão de credito</label> <br>
+         <input type="radio" name="forma">
+         <label>Cartão de debito</label>
+        </fieldset>
         <br>
         
 
@@ -79,6 +91,21 @@
             <option value="leonardo"></option>
         </datalist>
         <br>
+        <select>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+
+        </select>
 
         
 
@@ -89,13 +116,17 @@
         <input type="file">
     </form>
     <hr>
+    <h1>Seu Feedback</h1>
     <form>
+        <label>Deixe suas observações</label> <br>
+        <textarea cols="50 " rows="10"></textarea>
+        <input type="range"> 
+
 
     </form>
 
 
-    <label>Deixe suas observações</label> <br>
-        <textarea cols="50 " rows="10"></textarea>
+    
 
         <input type="submit" value="Inscrição">
 </body>
