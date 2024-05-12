@@ -1,9 +1,42 @@
 body{
     font-size: 2em;
     background-color: gray;
+    width: 100%;
+    font-family: "Berkshire Swash", serif;
+
+      
+
 }
+button:hover{
+
+}
+
 header{
     background-color: aliceblue;
     margin: 0;
-    
 }
+#logo{
+width: 2em;
+height: 2em;
+float: left;
+}
+.cartao2{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.acessorios{
+    border: solid 1px aliceblue;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+
+img{
+    justify-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+
