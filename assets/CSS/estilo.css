@@ -1,0 +1,52 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(199, 142, 252);
+    margin: 0;
+    padding: 0;
+}
+
+.form-container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(241, 145, 233);
+    border-radius: 500px;
+}
+
+.form-input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(76, 124, 228);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea{
+    background-color: rgb(243, 137, 220);
+}
+
+.produtos{
+    border-color: blueviolet;
+    border-radius: 20px;
+}
+
+.form-submit-bnt{
+    color: rgb(216, 69, 143);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-submit-bnt1{
+    color: rgb(135, 26, 179);
+    padding: 12px 20px;
+    border-radius: 500px;
+}
+
+.label1{
+    color: rgb(218, 21, 119);
+    padding: 12px 20px;
+    cursor: pointer;
+}

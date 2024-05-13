@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/CSS/estilo.css">
     <title></title>
 </head>
 <body>
-    <h1>QUESTIONARIO</h1>
+    <h1 class="form-container">Formulário - Virtual Fashion</h1>
 <BR>
     <h2>RESPONDA AS PERGUNTAS</h2>
     
     <form>
 
-    <fieldset>
+    <fieldset class="form-input">
 
         <legend><strong>PARTE SUPERIOR</strong></legend>
 
-    <select>
+    <select class="produtos">
         <option value=""></option>
         <option value="Macacão R&dollar;">Macacão R&dollar;30,00</option>
         <option value="Blusa R&dollar;54,90">Blusa R&dollar;54,90</option>
@@ -33,6 +33,7 @@
         <option value="Moda Plus Size R&dollar;114,90">Moda Plus Size R&dollar;114,90</option>
         <option value="Moda Esportiva R&dollar;86,99">Moda Esportiva R&dollar;86,99</option>
     </select>
+
     <hr>
         <legend><strong>CORES</strong></legend>
         <input type="radio" name="cor">
@@ -48,7 +49,7 @@
     <hr>
         <legend><strong>TAMANHOS</strong></legend>
         
-    <select>
+    <select class="produtos">
         <option value=""></option>
         <option value="P">P</option>
         <option value="M">M</option>
@@ -62,11 +63,11 @@
     
     </fieldset>
     
-    <fieldset>
+    <fieldset class="form-input">
 
         <legend><strong>PARTE INFERIOR</strong></legend>
 
-    <select>
+    <select class="produtos">
         <option value=""></option>
         <option value="Short Jeans &dollar;64,90">Short Jeans R&dollar;64,90</option>
         <option value="Short Alfaiataria R&dollar;104,90">Short Alfaiataria R&dollar;114,90</option>
@@ -99,10 +100,10 @@
 
     </fieldset>
 
-    <fieldset>
+    <fieldset class="form-input">
         <legend><strong>MODA PRAIA</strong></legend>
 
-    <select>
+    <select class="produtos">
         <option value=""></option>
         <option value="Biquíni R&dollar;124,90">Biquíni R&dollar;124,90</option>
         <option value="Chapéu R&dollar;99,80">Chapéu R&dollar;99,80</option>
@@ -144,10 +145,10 @@
 
     </fieldset>
 
-    <FIeldset>
+    <FIeldset class="form-input">
         <legend><strong>ACESSÓRIOS</strong></legend>
 
-    <select>
+    <select class="produtos">
         <option value=""></option>
         <option value="Tiara e Faixa de cabelo R&dollar;124,99">Tiara e Faixa de cabelo R&dollar;124,99</option>
         <option value="Bolsa R&dollar;124,99">Bolsa R&dollar;124,99</option>
@@ -161,17 +162,18 @@
     <hr>
         <legend><strong>KITS PARA PRESENTES</strong></legend>
         
-    <select>
+    <select class="produtos">
+        <option value=""></option>
         <option value="Relógio e acessorios&dollar;154,99">Relógio e acessorios&dollar;154,99</option>
         <option value="Colar e Chapéu &dollar;109,99">Colar e Chapéu &dollar;109,99</option>
     </select>
 
     </FIeldset>
 
-    <fieldset>
+    <fieldset class="form-input">
         <legend><strong>SAPATOS</strong></legend>
         
-    <select>
+    <select class="produtos">
         <option value=""></option>  
         <option value="Sandalha R&dollar;">Sandalha R&dollar;</option>
         <option value="Salto Alto R&dollar;124,99">Salto Alto R&dollar;124,99</option>
@@ -203,7 +205,7 @@
 
     </fieldset>
 
-    <fieldset>
+    <fieldset class="form-input">
         <legend><strong>INFORMAÇÕES NECESSARIAS PARA A COMPRA</strong></legend>
     
         <label>Nome:</label>
@@ -223,7 +225,7 @@
         <label>Apartamento</label> 
     </fieldset>
 
-    <fieldset>
+    <fieldset class="form-input">
         <legend><strong>Forma de pagamento</strong></legend>
 
         <input type="radio" name="forma">
@@ -240,9 +242,8 @@
     <br>
     </form>
     
-    <h1>Seu Feedback</h1>
-    <form>
-
+    <form class="form-submit-bnt">
+        <h1>Seu Feedback</h1>
     <fieldset>
         <legend><strong>O que achou do nosso site?</strong></legend>
 
@@ -275,12 +276,13 @@
         
         <textarea cols="50 " rows="10"></textarea>
     </fieldset>
-        <label>Deixe suas observações sobre o site aqui.</label> <br>
-        <textarea cols="50 " rows="10"></textarea>
-        Isso irá ajudar-nos a melhorar o site
+    
+        <label class="label1">Deixe suas observações sobre o site aqui:</label> <br>
+        <textarea cols="50 " rows="10"></textarea> <br>
+        Isso irá ajudar-nos a melhorar o site!
     </form>
 
-<input type="submit" value="Enviar">
+<button type="submit" class="form-submit-bnt1">Enviar</button>
 
 </body>
 </html>
