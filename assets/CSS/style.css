@@ -1,32 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-size: 2em;
     background-color: #cebaaf;
     width: 100%;
     font-family: "Berkshire Swash", serif;
-
-      
-
 }
-.botao{
-    align-items: flex-end;
-
+.botao:hover{
+    background-color: #623422;
+    color: white;
+    box-shadow: 3px #623422 ;
+    width: 20%;
 }
-button:hover{
 
+#cabeca{
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#banner{
+    width: 55%;
+}
+#app{
+  width: 10%;
+}
+#link{
+   width: 90%;
 }
 
 header{
-    background-color: aliceblue;
-    margin: 0;
-    padding: 10px;
+    
+    box-sizing: border-box;
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    position: absolute;
 }
 #logo{
 width: 2em;
 height: 2em;
-float: left;
+
 }
 
-h3{
+h3, h4{
     margin: 20px;
     color: #623422;
 }
@@ -51,6 +72,10 @@ p{
     border: #a8806e;
     width: 20%;
 
+}
+
+footer{
+  background-color: #c47454;
 }
 
 img{
