@@ -8,35 +8,66 @@ body{
     width: 100%;
     font-family: "Berkshire Swash", serif;
 }
+
 .botao:hover{
-    background-color: #623422;
-    color: white;
-    box-shadow: 3px #623422 ;
-    width: 20%;
+    background-color: white;
+    color: black;
+    box-shadow: 7px 7px 7px black;
+    width: 25%;
+    height: 25%;
+    border-radius: 5px;
+}
+
+.botao{
+   background-color: #623422;
+   padding: 10px;
+   color: white;
+   border-radius: 10px;
+   border: #623422;
 }
 
 #cabeca{
-    max-width: 1080px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     align-items: center;
-    justify-content: center;
-    
 }
 
-#banner{
-    width: 55%;
+.img-header{
+    width: 150px;
+    height: 107px;
 }
-#app{
-  width: 10%;
+
+.imgzap:hover{
+    width: 80px;
+    height: 80px;
+    border-style:outset;
+    border-radius: 50px;
+    box-shadow: 6px 6px 6px black;
 }
-#link{
-   width: 90%;
+.imgzap{
+    width: 60px;
+    height: 60px;
+    border-style:outset;
+    border-radius: 50px;
+}
+
+.banner{
+    justify-self: start;
+}
+
+#links{
+    justify-self: center;
+}
+
+.app{
+    justify-self: end;
 }
 
 header{
     
     box-sizing: border-box;
-    background-color: black;
+    background-color: #623422;
     width: 100%;
     height: 10vh;
     position: absolute;
@@ -60,6 +91,10 @@ h3, h4{
 p{
     color: #623422;
 }
+
+.final{
+    color: #cebaaf;
+}
 .acessorios{
     border: solid 1px #dce4fc;
     border-radius: 10px;
@@ -75,11 +110,10 @@ p{
 }
 
 footer{
-  background-color: #c47454;
+  background-color: #623422;
 }
 
 img{
-    justify-items: center;
     width: 100%;
     height: 60%;
     border-radius: 10px;
@@ -91,5 +125,3 @@ span:hover{
     box-shadow: 5px 5px 5px  #623422;
     border-radius: 5px;
 }
-
-
