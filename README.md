@@ -2,7 +2,7 @@
 projeto em dupla para desenvolver um E-commerce
 Um pouco sobre a loja. 
 
-acesse: https://leonardolimacavalcante890.github.io/projeto_dupla_09/
+acesse: (https://leonardolimacavalcante890.github.io/projeto_dupla_09/)
 
 Bem-vinda ao Virtual Fashion: Sua Destinação de Estilo Feminino!
 
