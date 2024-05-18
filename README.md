@@ -2,6 +2,8 @@
 projeto em dupla para desenvolver um E-commerce
 Um pouco sobre a loja. 
 
+acesse: https://leonardolimacavalcante890.github.io/projeto_dupla_09/
+
 Bem-vinda ao Virtual Fashion: Sua Destinação de Estilo Feminino!
 
 Descubra um universo de elegância e tendências, o seu destino definitivo para moda e acessórios femininos. Navegue por nossa coleção cuidadosamente selecionada, onde cada peça é escolhida para elevar o seu estilo e expressar sua individualidade.
